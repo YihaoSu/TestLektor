@@ -4,5 +4,5 @@ name = Test
 [servers.ghpages]
 enabled = yes
 name = Production
-target = ghpages+https://YihaoSu/test_lektor
+target = ghpages+https://YihaoSu/YihaoSu.github.io
 default = yes
