@@ -1,0 +1,8 @@
+[project]
+name = Test
+
+[servers.ghpages]
+enabled = yes
+name = Production
+target = ghpages+https://YihaoSu/test_lektor
+default = yes
