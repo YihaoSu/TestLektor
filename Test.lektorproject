@@ -1,5 +1,6 @@
 [project]
 name = Test
+themes = lektor-icon
 
 [servers.ghpages]
 enabled = yes
