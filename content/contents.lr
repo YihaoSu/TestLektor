@@ -1,80 +1,58 @@
 _model: single-layout
 ---
-show_home_nav: true
----
-hero_title: astrobackhacker
----
-hero_description: Welcome to the website of astrobackhacker!
----
-hero_image: camg-clover-bg.jpg
----
-starting_block_bg: light
----
 main_content:
 
-
 #### content ####
-section_id: overview
-----
-title: Lektor-Icon
+title: 關於我
 ----
 description: A modern theme for the Lektor CMS
 ----
-nav_label: About
+nav_label: 關於我
+----
+section_id: overview
 ----
 content:
+
 
 This a heavily modified and expanded version of the [FreeHTML5](https://freehtml5.co/) ["Icon" template](https://freehtml5.co/icon-free-website-template-using-bootstrap/) ported to the [Lektor](https://www.getlektor.com/) static CMS by [Daniel Althviz](https://dalthviz.github.io/) and the [Spyder](https://www.spyder-ide.org/) development team; it was initially derived from the [Hugo port](https://github.com/SteveLane/hugo-icon) of the Icon theme by [Steve Lane](https://gtown-ds.netlify.com/).
 The core template is a single-page, responsive layout, with sections for describing your organization and its mission, services, a gallery, your team and how visitors can download your software or donate to your cause.
 
-It also features additions including a built-in blog, generic page template, custom error page, common navbar, Gitter, Disqus, RSS/Atom and OpenCollective integration, heavy customizability, numerous fixes and improvements, and re-written for speed, extensibility, responsiveness and conformance.
-The theme is designed to be more desktop and mobile-friendly, and designed and tested to smoothly adapt to a wide variety of viewport sizes from well below 480px all the way to 4K, and closely follows modern web standards while still offering compatibility with a wide range of modern and legacy browsers.
 ----
-
-
-
+button_content: 
+----
+button_type: 
+----
+button_link: 
 #### services ####
-section_id: features
-----
 title: 開放天文
 ----
-description:
+description: 
 ----
 nav_label: 開放天文
+----
+section_id: features
 ----
 video_url: 
 ----
 services:
 
 ##### service #####
-title: Flexible Design
+title: 刻意練某端
 -----
-description:
-
-[Developed]() specifically to offer maximum customizability and adaptability both within pages and in the overall structure and organization of the site, while requiring a minimum of deep technical knowledge or awareness of edge-cases from content creators and gracefully handling missing or ambiguous field values.
+description: [Developed]() specifically to offer maximum customizability and adaptability both within pages and in the overall structure and organization of the site, while requiring a minimum of deep technical knowledge or awareness of edge-cases from content creators and gracefully handling missing or ambiguous field values.
 -----
 icon: flexible-design.png
------
-
 
 ##### service #####
 title: Responsive Layout
 -----
-description:
-
-Optimized for both desktop and mobile, and both portrait and landscape orientations; and individually tuned for a range of screen sizes from 360p to 4K without kludgy device detection, just media queries, adaptive sizing and responsive images.
+description: Optimized for both desktop and mobile, and both portrait and landscape orientations; and individually tuned for a range of screen sizes from 360p to 4K without kludgy device detection, just media queries, adaptive sizing and responsive images.
 -----
 icon: responsive-layout.png
------
-
 
 ##### service #####
 title: Standards-Based
 -----
-description:
-
-Built on a foundation of modern web standards, including HTML5, CSS3, and jQuery 3, audited for HTML/CSS validity, accessibility and performance, and security hardened with updated Javascript libraries, XSS protection and best practices; all while remaining fully compatible with common modern and legacy browsers.
+description: Built on a foundation of modern web standards, including HTML5, CSS3, and jQuery 3, audited for HTML/CSS validity, accessibility and performance, and security hardened with updated Javascript libraries, XSS protection and best practices; all while remaining fully compatible with common modern and legacy browsers.
 -----
 icon: standards-based.png
------
-----
