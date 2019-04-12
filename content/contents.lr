@@ -5,7 +5,25 @@ main_content:
 #### content ####
 title: 關於我
 ----
-description: A modern theme for the Lektor CMS
+description:
+
+<div id="typed-strings">
+    <p>我是一位遠距工作者(remote worker)</p>
+    <p>我是一位公民天文學家(citizen astronomer)</p>
+    <p>我是open source和Python的愛好者</p>
+</div>
+<span id="typed"></span>
+<script>
+ $( document ).ready(function() {
+     var typed = new Typed('#typed', {
+       stringsElement: '#typed-strings',
+       loop: true,
+       typeSpeed: 50,
+       backSpeed: 10,
+       backDelay: 2000,
+    });
+});
+</script>
 ----
 nav_label: 關於我
 ----
@@ -13,9 +31,6 @@ section_id: overview
 ----
 content:
 
-
-This a heavily modified and expanded version of the [FreeHTML5](https://freehtml5.co/) ["Icon" template](https://freehtml5.co/icon-free-website-template-using-bootstrap/) ported to the [Lektor](https://www.getlektor.com/) static CMS by [Daniel Althviz](https://dalthviz.github.io/) and the [Spyder](https://www.spyder-ide.org/) development team; it was initially derived from the [Hugo port](https://github.com/SteveLane/hugo-icon) of the Icon theme by [Steve Lane](https://gtown-ds.netlify.com/).
-The core template is a single-page, responsive layout, with sections for describing your organization and its mission, services, a gallery, your team and how visitors can download your software or donate to your cause.
 
 ----
 button_content: 
@@ -42,14 +57,12 @@ title: 刻意練某端
 description: [Developed]() specifically to offer maximum customizability and adaptability both within pages and in the overall structure and organization of the site, while requiring a minimum of deep technical knowledge or awareness of edge-cases from content creators and gracefully handling missing or ambiguous field values.
 -----
 icon: flexible-design.png
-
 ##### service #####
 title: Responsive Layout
 -----
 description: Optimized for both desktop and mobile, and both portrait and landscape orientations; and individually tuned for a range of screen sizes from 360p to 4K without kludgy device detection, just media queries, adaptive sizing and responsive images.
 -----
 icon: responsive-layout.png
-
 ##### service #####
 title: Standards-Based
 -----
